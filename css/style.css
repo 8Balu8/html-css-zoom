@@ -9,18 +9,43 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .flex {
     display: flex;
+}
+.black {
+    background-color: black;
+}
+.txt14 {
+    font-size: 14px;
 }
 
 /* HEADER */
 .header-options {
     height: 80px;
-
-    /* TEST */
-    background-color: aquamarine;
+    justify-content: flex-end;
 }
+
+.header-options-color {
+    background-color: #4a4a4a;
+    color: #e3e9e4;
+}
+.typeview, .fullscreen {
+    height: 30%;
+    align-items: center;
+    margin: 5px 10px 0 0;
+    border-radius: 5px;
+}
+.typeview {
+    width: 8%;
+}
+.typeview i {
+    padding: 3% 5% 0 5%;
+}
+.fullscreen {
+    padding: 1px 5px;
+}
+
+
 
 /* MAIN */
 .speakers-menu {
