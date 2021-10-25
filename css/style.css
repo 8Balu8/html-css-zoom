@@ -101,3 +101,11 @@ footer {
 .features .footer-icon:nth-child(4) i {
     color: #4bc701;
 }
+.end {
+    color: red;
+    background-color: #4a4a4a;
+    height: 100%;
+    line-height: 80px;
+    width: 6%;
+    text-align: center;
+}
