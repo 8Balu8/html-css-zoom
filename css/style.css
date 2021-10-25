@@ -18,9 +18,13 @@ body {
 .txt14 {
     font-size: 14px;
 }
+img {
+    width: 100%;
+}
 
 /* HEADER */
 .header-options {
+    width: 100%;
     height: 80px;
     justify-content: flex-end;
 }
@@ -48,15 +52,38 @@ body {
 
 
 /* MAIN */
-.speakers-menu {
+main {
+    width: 100%;
     height: calc(100vh - 160px);
 
-    /* TEST */
-    background-color: cornflowerblue;
+}
+.speakers-menu {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow-y: auto;
+}
+.speaker {
+    position: relative;
+    width: calc(100% / 7 - 10px);
+    margin: 5px;
+}
+.speaker-name {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 12px;
+    bottom: 3%;
+    left: 1%;
 }
 
 /* FOOTER */
 .footer-options {
+    width: 100%;
     height: 80px;
 
     /* TEST */
