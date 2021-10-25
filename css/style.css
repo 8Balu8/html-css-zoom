@@ -20,6 +20,7 @@ body {
 }
 img {
     width: 100%;
+    display: block;
 }
 
 /* HEADER */
@@ -73,19 +74,30 @@ main {
     margin: 5px;
 }
 .speaker-name {
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 12px;
+    position: absolute;
     bottom: 3%;
     left: 1%;
 }
 
 /* FOOTER */
-.footer-options {
-    width: 100%;
+footer {
     height: 80px;
-
-    /* TEST */
-    background-color: darkcyan;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+.videosound, .features {
+    align-items: center;
+}
+.footer-icon {
+    padding: 0 5px;
+    text-align: center;
+}
+.features .footer-icon:nth-child(4) i {
+    color: #4bc701;
 }
